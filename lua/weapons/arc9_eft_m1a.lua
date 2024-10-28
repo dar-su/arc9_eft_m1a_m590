@@ -103,12 +103,12 @@ SWEP.SpreadAddMove = 0.015
 
 SWEP.Recoil = 1.5 -- general multiplier of main recoil
 
-SWEP.RecoilUp   = 2   -- up recoil
+SWEP.RecoilUp   = 2.25   -- up recoil
 SWEP.RecoilSide = 0.5 -- sideways recoil
 SWEP.RecoilRandomUp   = 0.5 -- random up/down
 SWEP.RecoilRandomSide = 0.4   -- random left/right
 
-SWEP.RecoilAutoControl = 3.2 -- autocompenstaion, could be cool if set to high but it also affects main recoil
+SWEP.RecoilAutoControl = 3.3 -- autocompenstaion, could be cool if set to high but it also affects main recoil
 
 -- visual recoil   aka visrec
 SWEP.VisualRecoil = 1 -- general multiplier for it
@@ -443,7 +443,7 @@ SWEP.Hook_TranslateAnimation = function(swep, anim)
     end
 
     if anim == "fix" then
-        local rand = math.Truncate(util.SharedRandom("hi", 0, 4.99))
+        local rand = math.Truncate(util.SharedRandom("hi", 1, 4.99))
 
         -- 0 = misfire, 1 = eject, 2 = feed, 3 = bolt, 4 = bolt 
         if ARC9EFTBASE and SERVER then
