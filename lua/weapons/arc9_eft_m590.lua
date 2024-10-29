@@ -468,7 +468,7 @@ SWEP.Animations = {
     } },
 
     ["draw"] = { Source = "draw", EventTable = { { s = "arc9_eft_shared/weap_in.ogg", t = 0 } } },
-    ["holster"] = { Source = "holster", EventTable = { { s = "arc9_eft_shared/mr133_holster.ogg", t = 0 } } },
+    ["holster"] = { Source = "holster", EventTable = { { s = "arc9_eft_shared/weap_out.ogg", t = 0 } } },
 
     ["fire"] = { Source = "fire_sa", EventTable = { { s = path .. "mr133_trigger.ogg", t = 0 } }, NoIdle = true },
 

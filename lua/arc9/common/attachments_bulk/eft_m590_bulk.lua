@@ -297,7 +297,7 @@ ATT.Attachments = {
     {
         PrintName = "Pistol Grip",
         Category = "eft_ar15_pgrip",
-        Pos = Vector(0, -0.23, 1.28),
+        Pos = Vector(0, 0.61, 1.18),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(-1, 0, -1),
     },
