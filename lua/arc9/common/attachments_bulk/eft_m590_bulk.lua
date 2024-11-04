@@ -171,7 +171,8 @@ ATT.Attachments = {
         Category = {"eft_optic_large", "eft_optic_medium", "eft_optic_small"},
         Pos = Vector(-2.5, 0, -0.37),
         Ang = Angle(0, 0, 0),
-        ExtraSightDistance = 3
+        ExtraSightDistance = 3,
+        ExcludeElements = {"IronsBlockingSight"},
     },
     {
         PrintName = "Backup",
