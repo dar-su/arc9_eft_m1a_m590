@@ -669,9 +669,9 @@ SWEP.Animations = {
             { s = { "weapons/darsu_eft/bipod/bipod_stand_on_1.ogg", "weapons/darsu_eft/bipod/bipod_stand_on_2.ogg", "weapons/darsu_eft/bipod/bipod_stand_on_3.ogg", "weapons/darsu_eft/bipod/bipod_stand_on_4.ogg", "weapons/darsu_eft/bipod/bipod_stand_on_5.ogg" }, t = 0.2 },
         },
         IKTimeLine = {
-            { t = 0, lhik = 1 },
-            { t = 0.5, lhik = 0 },
-            { t = 1, lhik = 1 },
+            { t = 0, lhik = 1, rhik = 1 },
+            { t = 0.5, lhik = 0, rhik = 1 },
+            { t = 1, lhik = 1, rhik = 1 },
         },
     },
 
@@ -681,9 +681,9 @@ SWEP.Animations = {
             { s = { "weapons/darsu_eft/bipod/bipod_atlas_fold_1.ogg", "weapons/darsu_eft/bipod/bipod_atlas_fold_2.ogg", "weapons/darsu_eft/bipod/bipod_atlas_fold_3.ogg" }, t = 0.0 },
         },
         IKTimeLine = {
-            { t = 0, lhik = 1 },
-            { t = 0.5, lhik = 0 },
-            { t = 1, lhik = 1 },
+            { t = 0, lhik = 1, rhik = 1 },
+            { t = 0.5, lhik = 0, rhik = 1 },
+            { t = 1, lhik = 1, rhik = 1 },
         },
     },
 }
