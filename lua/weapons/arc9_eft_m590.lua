@@ -5,18 +5,18 @@ SWEP.Spawnable = true
 
 ------------------------- |||           Trivia            ||| -------------------------
 
-SWEP.PrintName = "Mossberg 590A1"
-SWEP.Description = [[The Mossberg 500 Series is one of the most famous and widespread pump-action shotguns in the world. Protects your front lawn since 1961.]]
+SWEP.PrintName = ARC9:GetPhrase("eft_weapon_m590a1")
+SWEP.Description = "eft_weapon_m590a1_desc"
 
-SWEP.Class = ARC9:GetPhrase("eft_class_weapon_pumpsg")
+SWEP.Class = "eft_class_weapon_pumpsg"
 SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_sg")
 
 SWEP.Trivia = {
-    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = "O.F. Mossberg & Sons",
-    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "12 Gauge",
-    [ARC9:GetPhrase("eft_trivia_act") .. "3"]= "Pump",
-    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_usa"),
-    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "1961"
+    ["eft_trivia_manuf1"] = "eft_trivia_manuf_mossberg",
+    ["eft_trivia_cal2"] = "eft_trivia_calibr_12g",
+    ["eft_trivia_act3"]= "eft_trivia_act_pump",
+    ["eft_trivia_country4"] = "eft_trivia_country_usa",
+    ["eft_trivia_year5"] = "1961"
 }
 
 SWEP.StandardPresets = false 
